@@ -238,3 +238,43 @@ footer {
     width: 45%;
   }
 }
+
+@media screen and (max-width: 438px) {
+  html {
+    font-size: 12px;
+  }
+
+  header {
+    padding: 0 2rem;
+  }
+
+  .logo-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-section {
+    padding: 0 2rem;
+  }
+
+  .hero-container input {
+    width: 100%;
+  }
+
+  footer {
+    padding: 0 0 10rem 0;
+  }
+
+  .footer-items h3 {
+    font-size: 2rem;
+  }
+
+  .footer-items h6 {
+    font-size: 1.25rem;
+  }
+
+  .footer-copyright {
+    left: 14px;
+    bottom: -50px;
+    font-size: 1.25rem;
+  }
+}
